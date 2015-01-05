@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/miniminimodal.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <h1>Mini Mini Modal</h1>
+
+        <p>Mini Mini Modal is a tiny JS modal with no dependencies.
+          Probably the tiniest; it's basically just alert() but it looks nicer.
+          Trigger with <code>mmm('message')</code>.</p>
+
+
+        <button onclick="showModal()">Example</button>
+
+        <h2>Options</h2>
+        <p>You can also pass an options object:</p>
+
+        <pre>
+          <code>
+          mmm('Lorem Ipsum', {
+            closeText: 'Close',
+            raw: true,
+            transitionDuration: 2
+          });
+          </code>
+        </pre>
+
+        <h3>closeText</h3>
+        <p>Specifies the text to use on the close button. Defaults to &ldquo;OK&rdquo;.</p>
+        <h3>raw</h3>
+        <p>If true, your message will be treated as raw html, won't be wrapped in a paragraph tag. Defualts to false.</p>
+        <h3>transitionDuration</h3>
+        <p>Specifies how long to wait before removing the modal DOM elements after close, or Defaults to 0.5.</p>
+
+        <script src="js/miniminimodal.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
