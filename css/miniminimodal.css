@@ -22,10 +22,19 @@
   z-index:100;
 }
 
+/* Button styles */
 .miniMiniClose {
   background-color:transparent;
-  border:1px solid #333;
+  outline:0;
+
   float:right;
+  border:1px solid #333;
+  padding:0.5rem 1rem;
+}
+
+.miniMiniClose:hover {
+  border-color:#888;
+  color:#888;
 }
 
 /*Transitions*/

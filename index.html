@@ -7,7 +7,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Karla:400,700' rel='stylesheet' type='text/css'>
 
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/miniminimodal.css">
@@ -20,32 +20,15 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <h1>Mini Mini Modal</h1>
+        <div class="main">
 
-        <p>Mini Mini Modal is a tiny JS modal with no dependencies (basically just <code>alert()</code>, but it looks better.)
-          Trigger with <code>mmm('message')</code>.</p>
+          <h1>Mini Mini Modal</h1>
 
+          <a href="http://github.com/jacksondc/miniminimodal">GitHub</a>
 
-        <button onclick="showModal()">Example</button>
+          <button onclick="showModal()">Example</button>
 
-        <h2>Installation</h2>
-        Download and include the <a href="https://cdn.rawgit.com/jacksondc/miniminimodal/gh-pages/js/miniminimodal.js">JS file</a> and (unless you want to write your own) the <a href="https://cdn.rawgit.com/jacksondc/miniminimodal/gh-pages/css/miniminimodal.css">CSS file</a>.
-
-        <h2>Options</h2>
-        <p>Set with the options object:</p>
-
-        <pre><code>mmm('Lorem Ipsum', {
-  closeText: 'Close',
-  raw: true,
-  transitionDuration: 2
-});</code></pre>
-
-        <h3>closeText</h3>
-        <p>Specifies the text to use on the close button. Defaults to &ldquo;OK&rdquo;.</p>
-        <h3>raw</h3>
-        <p>Treat the message as raw html (it won't get wrapped in a paragraph tag.) Defualts to false.</p>
-        <h3>transitionDuration</h3>
-        <p>Specifies how long to wait (in seconds) before removing the modal DOM elements after close, so that you can have time to transition. Defaults to 0.5.</p>
+        </div>
 
         <script src="js/miniminimodal.js"></script>
         <script src="js/main.js"></script>
