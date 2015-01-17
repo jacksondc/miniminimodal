@@ -76,11 +76,19 @@ body {
   margin:0 auto;
 }
 
+h1, h2, h3 {
+  margin-bottom:0;
+}
+
+p {
+  margin-top:0;
+}
+
 button {
   background-color:transparent;
   border:1px solid #333;
-  border-radius:4px;
   outline:0;
+  padding:0.25rem 0.5rem;
 }
 
 button:hover {
@@ -88,13 +96,45 @@ button:hover {
   color:#666;
 }
 
+code {
+  margin: 0 2px;
+  padding: 0 5px;
+  white-space: nowrap;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px;
+}
+
+pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px;
+}
+
+pre code {
+  background-color: transparent;
+  border: none;
+  white-space:pre;
+}
+
+a {
+  color: #4183C4;
+}
+
+a:hover {
+  text-decoration:none;
+}
 
 /* ==========================================================================
    Media Queries
    ========================================================================== */
 
 @media only screen and (min-width: 20em) {
-  
+
 }
 
 @media print,

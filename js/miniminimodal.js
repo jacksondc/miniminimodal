@@ -53,6 +53,8 @@
       document.body.appendChild(modal);
       document.body.appendChild(overlay);
 
+      close.focus();
+
       //trigger reflow
       //getComputedStyle(modal).cssText;
       modal.offsetHeight;
