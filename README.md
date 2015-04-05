@@ -1,22 +1,24 @@
 # Mini Mini Modal
 
-Mini Mini Modal is a tiny JS modal with no dependencies (basically just `alert()`, but it looks better.) Trigger with `mmm('message')`.
+Mini Mini Modal is a super simple JS modal with no dependencies - basically `alert()`, but prettier. Built because [all](https://github.com/FinelySliced/leanModal.js) [the](https://github.com/Nycto/PicoModal) [other](https://github.com/thephuse/vanilla-modal) "tiny" modals were too complicated or ugly. Trigger with `mmm('message')`.
 
 [See an example](http://jacksondc.com/miniminimodal)
 
 ## Installation
 
-Download and include the [JS file](https://cdn.rawgit.com/jacksondc/miniminimodal/gh-pages/js/miniminimodal.js) and (unless you want to write your own) the [CSS file](https://cdn.rawgit.com/jacksondc/miniminimodal/gh-pages/css/miniminimodal.css).
+Download and include the [JS file](https://cdn.rawgit.com/jacksondc/miniminimodal/gh-pages/js/miniminimodal.js) and the (easy to modify) [CSS file](https://cdn.rawgit.com/jacksondc/miniminimodal/gh-pages/css/miniminimodal.css).
 
 ## Options
 
-Set with the options object:
+You can also pass an options object:
 
+```
 mmm('Lorem Ipsum', {
   closeText: 'Close',
   raw: true,
   transitionDuration: 2
 });
+```
 
 ### closeText
 
